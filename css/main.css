@@ -15,39 +15,44 @@ body {
 }
 
 article {
-
+  padding: 0 1rem;
 }
 
 article p {
-
+  padding-top: .5rem;
 }
 
 article header {
-  border: 2px;
-  padding: 0 1rem;
+  margin: 2px 0;
 }
 
 article h1 {
   font-size: 1.5rem;
   color: #222;
+  margin-bottom: 0;
 }
 
 article header p {
   font-weight: lighter;
   font-style: italic;
   font-size: 1em;
+  margin-top: 0;
+  padding-top: 1px;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid black;
 }
 
 article ol {
-
+  list-style-type: decimal;
+  padding: 0 1rem;
 }
 
 blockquote {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: #999;
 }
 
 .quote {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   color: #999;
 }
